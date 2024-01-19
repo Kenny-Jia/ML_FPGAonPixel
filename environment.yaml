@@ -1,0 +1,16 @@
+name: Smart_Pixel 
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - keras
+  - tensorflow 
+  - ipython
+  - matplotlib
+  - pandas
+  - numpy
+  - scikit-learn
+  - scipy
+  - plotly
+  - jupyter
+  - pip
