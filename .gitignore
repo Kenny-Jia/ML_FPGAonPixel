@@ -1,0 +1,5 @@
+/negative-charge/
+/positive-charge/
+/MLP-MNIST/
+*.hdf5
+
