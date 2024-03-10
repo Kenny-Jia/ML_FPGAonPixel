@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="BDT.h" path="/u1/hjia625/conifer/final_prj_unscaled/firmware/BDT.h"/>
+    <originFiles name="BDT.cpp" path="/u1/hjia625/conifer/final_prj_unscaled/firmware/BDT.cpp"/>
+    <originFiles name="my_prj.cpp" path="/u1/hjia625/conifer/final_prj_unscaled/firmware/my_prj.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="my_prj_test.cpp" path="/u1/hjia625/conifer/final_prj_unscaled/my_prj_test.cpp"/>
+    <originFiles name="tb_data" path="/u1/hjia625/conifer/final_prj_unscaled/tb_data"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

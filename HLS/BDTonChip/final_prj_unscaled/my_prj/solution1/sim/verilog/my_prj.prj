@@ -1,0 +1,7 @@
+sv work "glbl.v"
+sv xil_defaultlib "my_prj.autotb.v"
+sv xil_defaultlib "my_prj_decision_function.v"
+sv xil_defaultlib "my_prj_mux_104_28_1_1.v"
+sv xil_defaultlib "my_prj.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+

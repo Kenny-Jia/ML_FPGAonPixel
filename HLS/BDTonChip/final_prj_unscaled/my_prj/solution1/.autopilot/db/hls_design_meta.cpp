@@ -1,0 +1,25 @@
+#include "hls_design_meta.h"
+const Port_Property HLS_Design_Meta::port_props[]={
+	Port_Property("ap_start", 1, hls_in, -1, "", "", 1),
+	Port_Property("ap_done", 1, hls_out, -1, "", "", 1),
+	Port_Property("ap_idle", 1, hls_out, -1, "", "", 1),
+	Port_Property("ap_ready", 1, hls_out, -1, "", "", 1),
+	Port_Property("x_0", 28, hls_in, 0, "ap_none", "in_data", 1),
+	Port_Property("x_1", 28, hls_in, 1, "ap_none", "in_data", 1),
+	Port_Property("x_2", 28, hls_in, 2, "ap_none", "in_data", 1),
+	Port_Property("x_3", 28, hls_in, 3, "ap_none", "in_data", 1),
+	Port_Property("x_4", 28, hls_in, 4, "ap_none", "in_data", 1),
+	Port_Property("x_5", 28, hls_in, 5, "ap_none", "in_data", 1),
+	Port_Property("x_6", 28, hls_in, 6, "ap_none", "in_data", 1),
+	Port_Property("x_7", 28, hls_in, 7, "ap_none", "in_data", 1),
+	Port_Property("x_8", 28, hls_in, 8, "ap_none", "in_data", 1),
+	Port_Property("x_9", 28, hls_in, 9, "ap_none", "in_data", 1),
+	Port_Property("x_10", 28, hls_in, 10, "ap_none", "in_data", 1),
+	Port_Property("x_11", 28, hls_in, 11, "ap_none", "in_data", 1),
+	Port_Property("x_12", 28, hls_in, 12, "ap_none", "in_data", 1),
+	Port_Property("x_13", 28, hls_in, 13, "ap_none", "in_data", 1),
+	Port_Property("score_0", 28, hls_out, 14, "ap_vld", "out_data", 1),
+	Port_Property("score_0_ap_vld", 1, hls_out, 14, "ap_vld", "out_vld", 1),
+	Port_Property("score_1", 28, hls_in, 15, "ap_none", "in_data", 1),
+};
+const char* HLS_Design_Meta::dut_name = "my_prj";

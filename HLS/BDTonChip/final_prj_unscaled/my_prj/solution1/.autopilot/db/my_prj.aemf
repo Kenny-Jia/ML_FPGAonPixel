@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1708219961453">
+  <ports id="1" name="x_0" type="PortType" originalName="x.V" coreId="3621216858" bitwidth="28"/>
+  <ports id="2" name="x_1" type="PortType" originalName="x.V" coreId="1768307571" bitwidth="28"/>
+  <ports id="3" name="x_2" type="PortType" originalName="x.V" coreId="30" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="4" name="x_3" type="PortType" originalName="x.V" coreId="658771328" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="5" name="x_4" type="PortType" originalName="x.V" coreId="659026208" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="6" name="x_5" type="PortType" originalName="x.V" coreId="658909616" bitwidth="28"/>
+  <ports id="7" name="x_6" type="PortType" originalName="x.V" coreId="659046992" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="8" name="x_7" type="PortType" originalName="x.V" coreId="30" bitwidth="28"/>
+  <ports id="9" name="x_8" type="PortType" originalName="x.V" coreId="659055136" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="10" name="x_9" type="PortType" originalName="x.V" coreId="658980080" bitwidth="28"/>
+  <ports id="11" name="x_10" type="PortType" originalName="x.V" coreId="1701999672" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="12" name="x_11" type="PortType" originalName="x.V" coreId="1717924464" bitwidth="28"/>
+  <ports id="13" name="x_12" type="PortType" originalName="x.V" coreId="658909616" bitwidth="28"/>
+  <ports id="14" name="x_13" type="PortType" originalName="x.V" coreId="0" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="15" name="score_0" type="PortType" originalName="score.V" coreId="658897312" bitwidth="28" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="16" name="score_1" type="PortType" originalName="score.V" coreId="659047168" bitwidth="28"/>
+  <edges id="64" source_obj="//@ports.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="66" source_obj="//@ports.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="68" source_obj="//@ports.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="70" source_obj="//@ports.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="72" source_obj="//@ports.8" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.4"/>
+  <edges id="74" source_obj="//@ports.10" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.5"/>
+  <edges id="76" source_obj="//@ports.13" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.6"/>
+  <edges id="79" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="80" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="81" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="82" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="83" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="84" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="85" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="88" source_obj="//@regions.0/@basic_blocks.0/@node_objs.8" sink_obj="//@ports.14"/>
+  <edges id="89" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.8"/>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="94" pipe_depth="1" RegionName="my_prj">
+    <basic_blocks id="61" name="my_prj" type="BlockType">
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="x_2_read" lineNumber="6" fileName="firmware/BDT.cpp" fileDirectory=".." coreId="1629515375" contextFuncName="tree_scores" bitwidth="28" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.cpp" linenumber="6" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="tree_scores"/>
+        <dataInputObjs>x_2</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="x_3_read" lineNumber="6" fileName="firmware/BDT.cpp" fileDirectory=".." coreId="0" contextFuncName="tree_scores" bitwidth="28" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.cpp" linenumber="6" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="tree_scores"/>
+        <dataInputObjs>x_3</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="x_4_read" lineNumber="6" fileName="firmware/BDT.cpp" fileDirectory=".." coreId="0" contextFuncName="tree_scores" bitwidth="28" opcode="read" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.cpp" linenumber="6" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="tree_scores"/>
+        <dataInputObjs>x_4</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="x_6_read" lineNumber="6" fileName="firmware/BDT.cpp" fileDirectory=".." coreId="0" contextFuncName="tree_scores" bitwidth="28" opcode="read" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.cpp" linenumber="6" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="tree_scores"/>
+        <dataInputObjs>x_6</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="55" name="x_8_read" lineNumber="6" fileName="firmware/BDT.cpp" fileDirectory=".." coreId="658911664" contextFuncName="tree_scores" bitwidth="28" opcode="read" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.cpp" linenumber="6" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="tree_scores"/>
+        <dataInputObjs>x_8</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="56" name="x_10_read" lineNumber="6" fileName="firmware/BDT.cpp" fileDirectory=".." coreId="1769218148" contextFuncName="tree_scores" bitwidth="28" opcode="read" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.cpp" linenumber="6" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="tree_scores"/>
+        <dataInputObjs>x_10</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="57" name="x_13_read" lineNumber="6" fileName="firmware/BDT.cpp" fileDirectory=".." coreId="658912688" contextFuncName="tree_scores" bitwidth="28" opcode="read" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.cpp" linenumber="6" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="tree_scores"/>
+        <dataInputObjs>x_13</dataInputObjs>
+        <dataOutputObjs>call</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="58" name="ref_tmp_i_i" lineNumber="6" fileName="firmware/BDT.cpp" fileDirectory=".." rtlName="ref_tmp_i_i_decision_function_fu_105" coreId="658913272" contextFuncName="tree_scores" bitwidth="28" opcode="call" m_display="0" m_delay="3.87" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.cpp" linenumber="6" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="tree_scores"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <constName>decision_function</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="score_0_write_ln818" lineNumber="818" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="658913312" contextFuncName="operator_assign_56_38_true_AP_TRN_AP_WRAP_0" opcode="write" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="818" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator=&amp;lt;56, 38, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>call</dataInputObjs>
+        <dataOutputObjs>score_0</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="60" name="_ln11" lineNumber="11" fileName="firmware/my_prj.cpp" fileDirectory=".." coreId="659044272" contextFuncName="my_prj" opcode="ret" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/my_prj.cpp" linenumber="11" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="my_prj"/>
+      </node_objs>
+      <fileValidLineNumbers fileName="firmware/my_prj.cpp">
+        <validLinenumbers>11</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h">
+        <validLinenumbers>818</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="firmware/BDT.cpp">
+        <validLinenumbers>6</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <moduleNodes realName="ref_tmp_i_i_decision_function_fu_105">
+    <nodeIds>58</nodeIds>
+  </moduleNodes>
+  <ioNodes realName="x_10_read_read_fu_86">
+    <nodeIds>56</nodeIds>
+  </ioNodes>
+  <ioNodes realName="x_3_read_read_fu_62">
+    <nodeIds>52</nodeIds>
+  </ioNodes>
+  <ioNodes realName="x_8_read_read_fu_80">
+    <nodeIds>55</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln818_write_fu_98">
+    <nodeIds>59</nodeIds>
+  </ioNodes>
+  <ioNodes realName="x_4_read_read_fu_68">
+    <nodeIds>53</nodeIds>
+  </ioNodes>
+  <ioNodes realName="x_6_read_read_fu_74">
+    <nodeIds>54</nodeIds>
+  </ioNodes>
+  <ioNodes realName="x_13_read_read_fu_92">
+    <nodeIds>57</nodeIds>
+  </ioNodes>
+  <ioNodes realName="x_2_read_read_fu_56">
+    <nodeIds>51</nodeIds>
+  </ioNodes>
+  <ioPorts name="score_0">
+    <contents name="write">
+      <nodeIds>59</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="score_1"/>
+  <ioPorts name="x_0"/>
+  <ioPorts name="x_1"/>
+  <ioPorts name="x_10">
+    <contents name="read">
+      <nodeIds>56</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="x_11"/>
+  <ioPorts name="x_12"/>
+  <ioPorts name="x_13">
+    <contents name="read">
+      <nodeIds>57</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="x_2">
+    <contents name="read">
+      <nodeIds>51</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="x_3">
+    <contents name="read">
+      <nodeIds>52</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="x_4">
+    <contents name="read">
+      <nodeIds>53</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="x_5"/>
+  <ioPorts name="x_6">
+    <contents name="read">
+      <nodeIds>54</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="x_7"/>
+  <ioPorts name="x_8">
+    <contents name="read">
+      <nodeIds>55</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="x_9"/>
+  <fsm>
+    <states id="1">
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+      <operations id="54" stage="1" latency="1"/>
+      <operations id="55" stage="1" latency="1"/>
+      <operations id="56" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+      <operations id="58" stage="1" latency="1"/>
+      <operations id="59" stage="1" latency="1"/>
+      <operations id="60" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="my_prj" mII="1" mDepth="1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>61</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

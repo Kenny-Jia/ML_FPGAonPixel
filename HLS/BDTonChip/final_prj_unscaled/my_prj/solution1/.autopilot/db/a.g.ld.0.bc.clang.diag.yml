@@ -1,0 +1,526 @@
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: firmware/BDT.cpp, Line: 6, Column: 27 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E11tree_scoresEPS4_PA1_S4_
+Args:            
+  - String:          'Adding '''
+  - Name:            'tree_0_0 (.4)'
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: firmware/BDT.cpp, Line: 6, Column: 27 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E11tree_scoresEPS4_PA1_S4_
+Args:            
+  - String:          'Adding '''
+  - Name:            'tree_0_0 (.4)'
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: firmware/BDT.cpp, Line: 6, Column: 27 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E11tree_scoresEPS4_PA1_S4_
+Args:            
+  - String:          'Adding '''
+  - Name:            'tree_0_0 (.4)'
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: firmware/BDT.cpp, Line: 6, Column: 27 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E11tree_scoresEPS4_PA1_S4_
+Args:            
+  - String:          'Adding '''
+  - Name:            'tree_0_0 (.4)'
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: firmware/BDT.cpp, Line: 6, Column: 27 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E11tree_scoresEPS4_PA1_S4_
+Args:            
+  - String:          'Adding '''
+  - Name:            'tree_0_0 (.4)'
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: firmware/BDT.cpp, Line: 6, Column: 27 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E11tree_scoresEPS4_PA1_S4_
+Args:            
+  - String:          'Adding '''
+  - Name:            'tree_0_0 (.4)'
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: firmware/parameters.h, Line: 25, Column: 0 }
+Function:        _Z6my_prjP8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            'tree_0_0 (.4)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 119, Column: 23 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_119_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 113, Column: 5 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        Trees
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 115, Column: 7 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        Classes
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 108, Column: 20 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_108_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 106, Column: 13 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 106, Column: 13 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 87, Column: 22 }
+Function:        _ZNK3BDT4TreeILi0ELi19ELi10EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_87_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 65, Column: 15 }
+Function:        _ZNK3BDT4TreeILi0ELi19ELi10EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        Activate
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 52, Column: 11 }
+Function:        _ZNK3BDT4TreeILi0ELi19ELi10EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        Compare
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 44, Column: 13 }
+Function:        _ZNK3BDT4TreeILi0ELi19ELi10EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 105, Column: 0 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_119_2
+  - String:          ''' ('
+  - LoopLoc:         'firmware/BDT.h:119:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'BDT::BDT<1, 2, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 105, Column: 0 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        Trees
+  - String:          ''' ('
+  - LoopLoc:         'firmware/BDT.h:113:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'BDT::BDT<1, 2, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 105, Column: 0 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        Classes
+  - String:          ''' ('
+  - LoopLoc:         'firmware/BDT.h:115:7'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'BDT::BDT<1, 2, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 105, Column: 0 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_108_1
+  - String:          ''' ('
+  - LoopLoc:         'firmware/BDT.h:108:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'BDT::BDT<1, 2, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 105, Column: 0 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         'firmware/BDT.h:106:13'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'BDT::BDT<1, 2, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 105, Column: 0 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         'firmware/BDT.h:106:13'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'BDT::BDT<1, 2, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 24, Column: 0 }
+Function:        _ZNK3BDT4TreeILi0ELi19ELi10EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_87_1
+  - String:          ''' ('
+  - LoopLoc:         'firmware/BDT.h:87:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'BDT::Tree<0, 19, 10, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function'
+  - String:          ''' completely with a factor of '
+  - Factor:          '10'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 24, Column: 0 }
+Function:        _ZNK3BDT4TreeILi0ELi19ELi10EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        Activate
+  - String:          ''' ('
+  - LoopLoc:         'firmware/BDT.h:65:15'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'BDT::Tree<0, 19, 10, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function'
+  - String:          ''' completely with a factor of '
+  - Factor:          '19'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 24, Column: 0 }
+Function:        _ZNK3BDT4TreeILi0ELi19ELi10EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        Compare
+  - String:          ''' ('
+  - LoopLoc:         'firmware/BDT.h:52:11'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'BDT::Tree<0, 19, 10, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function'
+  - String:          ''' completely with a factor of '
+  - Factor:          '19'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: firmware/BDT.h, Line: 24, Column: 0 }
+Function:        _ZNK3BDT4TreeILi0ELi19ELi10EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         'firmware/BDT.h:44:13'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'BDT::Tree<0, 19, 10, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function'
+  - String:          ''' completely with a factor of '
+  - Factor:          '10'
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: firmware/BDT.h, Line: 105, Column: 0 }
+Function:        _ZNK3BDT3BDTILi1ELi2EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_S7_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'BDT::BDT<1, 2, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::tree_scores(ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [1]) const'
+    DebugLoc:        { File: firmware/BDT.cpp, Line: 5, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'BDT::BDT<1, 2, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function(ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>*) const'
+    DebugLoc:        { File: firmware/BDT.h, Line: 105, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: firmware/my_prj.cpp, Line: 5, Column: 0 }
+Function:        _Z6my_prjP8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'BDT::BDT<1, 2, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> [14], ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0> >::decision_function(ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>*) const'
+    DebugLoc:        { File: firmware/BDT.h, Line: 105, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'my_prj(ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<28, 19, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: firmware/my_prj.cpp, Line: 5, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/parameters.h, Line: 25, Column: 0 }
+Function:        _Z6my_prjP8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZL8tree_0_0.4.parent
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/parameters.h, Line: 25, Column: 0 }
+Function:        _Z6my_prjP8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZL8tree_0_0.4.children_right
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/parameters.h, Line: 25, Column: 0 }
+Function:        _Z6my_prjP8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZL8tree_0_0.4.children_left
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/parameters.h, Line: 25, Column: 0 }
+Function:        _Z6my_prjP8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZL8tree_0_0.4.value
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/parameters.h, Line: 25, Column: 0 }
+Function:        _Z6my_prjP8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZL8tree_0_0.4.threshold
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/parameters.h, Line: 25, Column: 0 }
+Function:        _Z6my_prjP8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZL8tree_0_0.4.feature
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/BDT.h, Line: 44, Column: 13 }
+Function:        _ZNK3BDT4TreeILi0ELi19ELi10EA14_8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_S4_E17decision_functionEPS4_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          value_leaf
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/my_prj.cpp, Line: 5, Column: 0 }
+Function:        _Z6my_prjP8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          x
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/my_prj.cpp, Line: 5, Column: 0 }
+Function:        _Z6my_prjP8ap_fixedILi28ELi19EL9ap_q_mode5EL9ap_o_mode3ELi0EES3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          score
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...

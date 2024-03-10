@@ -1,0 +1,222 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5559" msg_severity="WARNING" msg_loc="firmware/my_prj.cpp:9:9" msg_body="Only for/while loops support the 'Unroll '">
+        <args ClangWarningOption="ignored-hls-attributes"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:678:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:692:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:706:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=feature" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=threshold" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=value" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=children_left" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=children_right" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=parent" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=comparison" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:47:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=activation" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=activation_leaf" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=value_leaf" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:53:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:66:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:107:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=scores dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/u1/hjia625/conifer/final_prj_unscaled/my_prj/solution1/csynth.tcl:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="my_prj" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=my_prj" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/u1/hjia625/conifer/final_prj_unscaled/my_prj/solution1/directives.tcl:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="my_prj" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=my_prj" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/my_prj.cpp:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="my_prj" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=x" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/my_prj.cpp:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="my_prj" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=score" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/my_prj.cpp:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="my_prj" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/my_prj.cpp:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="my_prj" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/my_prj.cpp:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="my_prj_accelerator" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:678:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:692:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:706:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=feature" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=threshold" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=value" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=children_left" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=children_right" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=parent" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=comparison" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:47:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=activation" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=activation_leaf" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:49:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=value_leaf" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:53:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:66:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="firmware/BDT.h:107:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="decision_function" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=scores dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-377" msg_severity="INFO" msg_loc="firmware/BDT.cpp:6:27" msg_body="Adding 'tree_0_0 (.4)' into disaggregation list because there's array-partition pragma applied on the struct field">
+        <args Name="tree_0_0 (.4)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-210" msg_severity="INFO" msg_loc="firmware/parameters.h:25:0" msg_body="Disaggregating variable 'tree_0_0 (.4)'">
+        <args Name="tree_0_0 (.4)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/BDT.h:119:23" msg_body="Loop 'VITIS_LOOP_119_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_119_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/BDT.h:113:5" msg_body="Loop 'Trees' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Trees"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/BDT.h:115:7" msg_body="Loop 'Classes' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Classes"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/BDT.h:108:20" msg_body="Loop 'VITIS_LOOP_108_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_108_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/BDT.h:106:13" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/BDT.h:87:22" msg_body="Loop 'VITIS_LOOP_87_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_87_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/BDT.h:65:15" msg_body="Loop 'Activate' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Activate"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/BDT.h:52:11" msg_body="Loop 'Compare' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Compare"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="firmware/BDT.h:44:13" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/BDT.h:105:0" msg_body="Unrolling loop 'VITIS_LOOP_119_2' (firmware/BDT.h:119:23) in function 'BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function' completely with a factor of 1">
+        <args Factor="1" LoopLoc="firmware/BDT.h:119:23" LoopName="VITIS_LOOP_119_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/BDT.h:105:0" msg_body="Unrolling loop 'Trees' (firmware/BDT.h:113:5) in function 'BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function' completely with a factor of 1">
+        <args Factor="1" LoopLoc="firmware/BDT.h:113:5" LoopName="Trees"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/BDT.h:105:0" msg_body="Unrolling loop 'Classes' (firmware/BDT.h:115:7) in function 'BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function' completely with a factor of 1">
+        <args Factor="1" LoopLoc="firmware/BDT.h:115:7" LoopName="Classes"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/BDT.h:105:0" msg_body="Unrolling loop 'VITIS_LOOP_108_1' (firmware/BDT.h:108:20) in function 'BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function' completely with a factor of 1">
+        <args Factor="1" LoopLoc="firmware/BDT.h:108:20" LoopName="VITIS_LOOP_108_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/BDT.h:105:0" msg_body="Unrolling loop 'anonymous' (firmware/BDT.h:106:13) in function 'BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function' completely with a factor of 1">
+        <args Factor="1" LoopLoc="firmware/BDT.h:106:13" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/BDT.h:24:0" msg_body="Unrolling loop 'VITIS_LOOP_87_1' (firmware/BDT.h:87:22) in function 'BDT::Tree&lt;0, 19, 10, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function' completely with a factor of 10">
+        <args Factor="10" LoopLoc="firmware/BDT.h:87:22" LoopName="VITIS_LOOP_87_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/BDT.h:24:0" msg_body="Unrolling loop 'Activate' (firmware/BDT.h:65:15) in function 'BDT::Tree&lt;0, 19, 10, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function' completely with a factor of 19">
+        <args Factor="19" LoopLoc="firmware/BDT.h:65:15" LoopName="Activate"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/BDT.h:24:0" msg_body="Unrolling loop 'Compare' (firmware/BDT.h:52:11) in function 'BDT::Tree&lt;0, 19, 10, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function' completely with a factor of 19">
+        <args Factor="19" LoopLoc="firmware/BDT.h:52:11" LoopName="Compare"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="firmware/BDT.h:24:0" msg_body="Unrolling loop 'anonymous' (firmware/BDT.h:44:13) in function 'BDT::Tree&lt;0, 19, 10, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function' completely with a factor of 10">
+        <args Factor="10" LoopLoc="firmware/BDT.h:44:13" LoopName="anonymous"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="firmware/BDT.h:105:0" msg_body="Inlining function 'BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::tree_scores(ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; (*) [1]) const' into 'BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function(ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*) const'">
+        <args Callee="BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::tree_scores(ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; (*) [1]) const" Caller="BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function(ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*) const"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="firmware/my_prj.cpp:5:0" msg_body="Inlining function 'BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function(ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*) const' into 'my_prj(ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*)'">
+        <args Callee="BDT::BDT&lt;1, 2, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; [14], ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::decision_function(ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*) const" Caller="my_prj(ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;28, 19, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/parameters.h:25:0" msg_body="Applying array_partition to '_ZL8tree_0_0.4.parent': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZL8tree_0_0.4.parent"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/parameters.h:25:0" msg_body="Applying array_partition to '_ZL8tree_0_0.4.children_right': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZL8tree_0_0.4.children_right"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/parameters.h:25:0" msg_body="Applying array_partition to '_ZL8tree_0_0.4.children_left': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZL8tree_0_0.4.children_left"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/parameters.h:25:0" msg_body="Applying array_partition to '_ZL8tree_0_0.4.value': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZL8tree_0_0.4.value"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/parameters.h:25:0" msg_body="Applying array_partition to '_ZL8tree_0_0.4.threshold': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZL8tree_0_0.4.threshold"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/parameters.h:25:0" msg_body="Applying array_partition to '_ZL8tree_0_0.4.feature': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZL8tree_0_0.4.feature"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/BDT.h:44:13" msg_body="Applying array_partition to 'value_leaf': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="value_leaf"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/my_prj.cpp:5:0" msg_body="Applying array_partition to 'x': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="x"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="firmware/my_prj.cpp:5:0" msg_body="Applying array_partition to 'score': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="score"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

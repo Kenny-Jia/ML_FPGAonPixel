@@ -1,0 +1,139 @@
+
+
+================================================================
+== Synthesis Summary Report of 'my_prj'
+================================================================
++ General Information: 
+    * Date:           Sat Feb 17 17:32:41 2024
+    * Version:        2022.2 (Build 3670227 on Oct 13 2022)
+    * Project:        my_prj
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: kintexu
+    * Target device:  xcku040-ffva1156-2-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------------+------+-------+---------+--------+----------+---------+------+----------+------+----+---+-----------+-----+
+    |        Modules       | Issue|       | Latency | Latency| Iteration|         | Trip |          |      |    |   |           |     |
+    |        & Loops       | Type | Slack | (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF|    LUT    | URAM|
+    +----------------------+------+-------+---------+--------+----------+---------+------+----------+------+----+---+-----------+-----+
+    |+ my_prj              |    II|  14.37|        0|   0.000|         -|        1|     -|       yes|     -|   -|  -|  294 (~0%)|    -|
+    | + decision_function  |     -|  14.37|        0|   0.000|         -|        1|     -|       yes|     -|   -|  -|  294 (~0%)|    -|
+    +----------------------+------+-------+---------+--------+----------+---------+------+----------+------+----+---+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++-----------+---------+----------+
+| Interface | Mode    | Bitwidth |
++-----------+---------+----------+
+| score_0   | ap_vld  | 28       |
+| score_1   | ap_none | 28       |
+| x_0       | ap_none | 28       |
+| x_1       | ap_none | 28       |
+| x_10      | ap_none | 28       |
+| x_11      | ap_none | 28       |
+| x_12      | ap_none | 28       |
+| x_13      | ap_none | 28       |
+| x_2       | ap_none | 28       |
+| x_3       | ap_none | 28       |
+| x_4       | ap_none | 28       |
+| x_5       | ap_none | 28       |
+| x_6       | ap_none | 28       |
+| x_7       | ap_none | 28       |
+| x_8       | ap_none | 28       |
+| x_9       | ap_none | 28       |
++-----------+---------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+---------------------------------------+
+| Argument | Direction | Datatype                              |
++----------+-----------+---------------------------------------+
+| x        | in        | ap_fixed<28, 19, AP_TRN, AP_WRAP, 0>* |
+| score    | out       | ap_fixed<28, 19, AP_TRN, AP_WRAP, 0>* |
++----------+-----------+---------------------------------------+
+
+* SW-to-HW Mapping
++----------+----------------+---------+
+| Argument | HW Interface   | HW Type |
++----------+----------------+---------+
+| x        | x_0            | port    |
+| x        | x_1            | port    |
+| x        | x_2            | port    |
+| x        | x_3            | port    |
+| x        | x_4            | port    |
+| x        | x_5            | port    |
+| x        | x_6            | port    |
+| x        | x_7            | port    |
+| x        | x_8            | port    |
+| x        | x_9            | port    |
+| x        | x_10           | port    |
+| x        | x_11           | port    |
+| x        | x_12           | port    |
+| x        | x_13           | port    |
+| score    | score_0        | port    |
+| score    | score_0_ap_vld | port    |
+| score    | score_1        | port    |
++----------+----------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Bind Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Pragmas with Warnings
++--------+---------+---------------------------------+--------------------------------------------+
+| Type   | Options | Location                        | Messages                                   |
++--------+---------+---------------------------------+--------------------------------------------+
+| unroll |         | firmware/my_prj.cpp:9 in my_prj | Only for/while loops support the 'Unroll ' |
++--------+---------+---------------------------------+--------------------------------------------+
+
+* Valid Pragma Syntax
++-----------------+--------------------------+---------------------------------------------------------+
+| Type            | Options                  | Location                                                |
++-----------------+--------------------------+---------------------------------------------------------+
+| pipeline        | II = 1                   | firmware/BDT.h:25 in decision_function                  |
+| array_partition | variable=feature         | firmware/BDT.h:26 in decision_function, feature         |
+| array_partition | variable=threshold       | firmware/BDT.h:27 in decision_function, threshold       |
+| array_partition | variable=value           | firmware/BDT.h:28 in decision_function, value           |
+| array_partition | variable=children_left   | firmware/BDT.h:29 in decision_function, children_left   |
+| array_partition | variable=children_right  | firmware/BDT.h:30 in decision_function, children_right  |
+| array_partition | variable=parent          | firmware/BDT.h:31 in decision_function, parent          |
+| array_partition | variable=comparison      | firmware/BDT.h:46 in decision_function, comparison      |
+| array_partition | variable=activation      | firmware/BDT.h:47 in decision_function, activation      |
+| array_partition | variable=activation_leaf | firmware/BDT.h:48 in decision_function, activation_leaf |
+| array_partition | variable=value_leaf      | firmware/BDT.h:49 in decision_function, value_leaf      |
+| unroll          |                          | firmware/BDT.h:53 in decision_function                  |
+| unroll          |                          | firmware/BDT.h:66 in decision_function                  |
+| array_partition | variable=scores dim=0    | firmware/BDT.h:107 in decision_function, scores         |
+| array_partition | variable=x               | firmware/my_prj.cpp:6 in my_prj, x                      |
+| array_partition | variable=score           | firmware/my_prj.cpp:7 in my_prj, score                  |
+| pipeline        |                          | firmware/my_prj.cpp:8 in my_prj                         |
+| pipeline        |                          | firmware/my_prj.cpp:29 in my_prj_accelerator            |
++-----------------+--------------------------+---------------------------------------------------------+
+
+

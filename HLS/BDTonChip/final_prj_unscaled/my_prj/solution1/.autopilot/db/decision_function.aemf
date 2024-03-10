@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1708219961313">
+  <ports id="1" name="p_read1" type="PortType" coreId="3621216858" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="p_read2" type="PortType" coreId="645804176" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="3" name="p_read3" type="PortType" coreId="658471704" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="4" name="p_read4" type="PortType" coreId="658470176" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="5" name="p_read5" type="PortType" coreId="658425440" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="6" name="p_read6" type="PortType" coreId="658555936" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="7" name="p_read7" type="PortType" coreId="658398448" bitwidth="28">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="17" name="ap_return" direction="DirOut">
+    <dataInputObjs>ret</dataInputObjs>
+  </ports>
+  <edges id="68" source_obj="//@ports.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="70" source_obj="//@ports.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="72" source_obj="//@ports.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="74" source_obj="//@ports.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="76" source_obj="//@ports.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.4"/>
+  <edges id="78" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.5"/>
+  <edges id="80" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.6"/>
+  <edges id="81" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="84" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.8"/>
+  <edges id="87" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.9"/>
+  <edges id="90" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.10"/>
+  <edges id="93" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.11"/>
+  <edges id="96" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.12"/>
+  <edges id="99" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.13"/>
+  <edges id="102" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.14"/>
+  <edges id="105" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.15"/>
+  <edges id="108" source_obj="//@regions.0/@basic_blocks.0/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.16"/>
+  <edges id="109" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.16"/>
+  <edges id="110" source_obj="//@regions.0/@basic_blocks.0/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.17"/>
+  <edges id="113" source_obj="//@regions.0/@basic_blocks.0/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.18"/>
+  <edges id="114" source_obj="//@regions.0/@basic_blocks.0/@node_objs.17" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.18"/>
+  <edges id="115" source_obj="//@regions.0/@basic_blocks.0/@node_objs.18" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.19"/>
+  <edges id="116" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.19"/>
+  <edges id="117" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="119" source_obj="//@regions.0/@basic_blocks.0/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="120" source_obj="//@regions.0/@basic_blocks.0/@node_objs.20" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="121" source_obj="//@regions.0/@basic_blocks.0/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.22"/>
+  <edges id="123" source_obj="//@regions.0/@basic_blocks.0/@node_objs.22" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.23"/>
+  <edges id="124" source_obj="//@regions.0/@basic_blocks.0/@node_objs.20" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.23"/>
+  <edges id="125" source_obj="//@regions.0/@basic_blocks.0/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.24"/>
+  <edges id="126" source_obj="//@regions.0/@basic_blocks.0/@node_objs.23" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.24"/>
+  <edges id="127" source_obj="//@regions.0/@basic_blocks.0/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.25"/>
+  <edges id="128" source_obj="//@regions.0/@basic_blocks.0/@node_objs.24" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.25"/>
+  <edges id="129" source_obj="//@regions.0/@basic_blocks.0/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.26"/>
+  <edges id="131" source_obj="//@regions.0/@basic_blocks.0/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.27"/>
+  <edges id="132" source_obj="//@regions.0/@basic_blocks.0/@node_objs.26" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.27"/>
+  <edges id="133" source_obj="//@regions.0/@basic_blocks.0/@node_objs.27" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.28"/>
+  <edges id="134" source_obj="//@regions.0/@basic_blocks.0/@node_objs.24" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.28"/>
+  <edges id="135" source_obj="//@regions.0/@basic_blocks.0/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.29"/>
+  <edges id="137" source_obj="//@regions.0/@basic_blocks.0/@node_objs.23" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.30"/>
+  <edges id="138" source_obj="//@regions.0/@basic_blocks.0/@node_objs.29" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.30"/>
+  <edges id="139" source_obj="//@regions.0/@basic_blocks.0/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.31"/>
+  <edges id="140" source_obj="//@regions.0/@basic_blocks.0/@node_objs.30" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.31"/>
+  <edges id="141" source_obj="//@regions.0/@basic_blocks.0/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.32"/>
+  <edges id="143" source_obj="//@regions.0/@basic_blocks.0/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.33"/>
+  <edges id="144" source_obj="//@regions.0/@basic_blocks.0/@node_objs.32" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.33"/>
+  <edges id="145" source_obj="//@regions.0/@basic_blocks.0/@node_objs.33" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.34"/>
+  <edges id="146" source_obj="//@regions.0/@basic_blocks.0/@node_objs.30" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.34"/>
+  <edges id="147" source_obj="//@regions.0/@basic_blocks.0/@node_objs.16" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.35"/>
+  <edges id="148" source_obj="//@regions.0/@basic_blocks.0/@node_objs.19" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.35"/>
+  <edges id="149" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.36"/>
+  <edges id="150" source_obj="//@regions.0/@basic_blocks.0/@node_objs.21" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.36"/>
+  <edges id="151" source_obj="//@regions.0/@basic_blocks.0/@node_objs.36" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.37"/>
+  <edges id="152" source_obj="//@regions.0/@basic_blocks.0/@node_objs.25" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.37"/>
+  <edges id="153" source_obj="//@regions.0/@basic_blocks.0/@node_objs.37" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.38"/>
+  <edges id="154" source_obj="//@regions.0/@basic_blocks.0/@node_objs.28" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.38"/>
+  <edges id="155" source_obj="//@regions.0/@basic_blocks.0/@node_objs.36" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.39"/>
+  <edges id="156" source_obj="//@regions.0/@basic_blocks.0/@node_objs.24" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.39"/>
+  <edges id="157" source_obj="//@regions.0/@basic_blocks.0/@node_objs.39" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.40"/>
+  <edges id="158" source_obj="//@regions.0/@basic_blocks.0/@node_objs.31" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.40"/>
+  <edges id="159" source_obj="//@regions.0/@basic_blocks.0/@node_objs.40" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.41"/>
+  <edges id="160" source_obj="//@regions.0/@basic_blocks.0/@node_objs.34" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.41"/>
+  <edges id="161" source_obj="//@regions.0/@basic_blocks.0/@node_objs.16" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.42"/>
+  <edges id="163" source_obj="//@regions.0/@basic_blocks.0/@node_objs.42" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.43"/>
+  <edges id="164" source_obj="//@regions.0/@basic_blocks.0/@node_objs.35" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.44"/>
+  <edges id="165" source_obj="//@regions.0/@basic_blocks.0/@node_objs.43" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.44"/>
+  <edges id="168" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.45"/>
+  <edges id="169" source_obj="//@regions.0/@basic_blocks.0/@node_objs.44" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.45"/>
+  <edges id="172" source_obj="//@regions.0/@basic_blocks.0/@node_objs.45" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.46"/>
+  <edges id="173" source_obj="//@regions.0/@basic_blocks.0/@node_objs.36" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.47"/>
+  <edges id="174" source_obj="//@regions.0/@basic_blocks.0/@node_objs.46" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.47"/>
+  <edges id="177" source_obj="//@regions.0/@basic_blocks.0/@node_objs.37" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.48"/>
+  <edges id="178" source_obj="//@regions.0/@basic_blocks.0/@node_objs.47" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.48"/>
+  <edges id="181" source_obj="//@regions.0/@basic_blocks.0/@node_objs.38" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.49"/>
+  <edges id="182" source_obj="//@regions.0/@basic_blocks.0/@node_objs.48" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.49"/>
+  <edges id="185" source_obj="//@regions.0/@basic_blocks.0/@node_objs.39" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.50"/>
+  <edges id="186" source_obj="//@regions.0/@basic_blocks.0/@node_objs.49" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.50"/>
+  <edges id="189" source_obj="//@regions.0/@basic_blocks.0/@node_objs.50" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.51"/>
+  <edges id="190" source_obj="//@regions.0/@basic_blocks.0/@node_objs.40" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.52"/>
+  <edges id="191" source_obj="//@regions.0/@basic_blocks.0/@node_objs.51" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.52"/>
+  <edges id="194" source_obj="//@regions.0/@basic_blocks.0/@node_objs.41" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.53"/>
+  <edges id="195" source_obj="//@regions.0/@basic_blocks.0/@node_objs.52" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.53"/>
+  <edges id="218" source_obj="//@regions.0/@basic_blocks.0/@node_objs.53" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.54"/>
+  <edges id="219" source_obj="//@regions.0/@basic_blocks.0/@node_objs.54" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.55"/>
+  <edges source_obj="//@regions.0/@basic_blocks.0/@node_objs.55" sink_obj="//@ports.7"/>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="270" pipe_depth="1" RegionName="decision_function">
+    <basic_blocks id="65" name="decision_function" type="BlockType">
+      <node_objs xsi:type="cdfg:CdfgNode" id="9" name="p_read" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="1667592275" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="28" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>p_read7</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="10" name="p_read_1" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="645251227" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="28" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>p_read6</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="11" name="p_read_2" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="2064" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="28" opcode="read" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>p_read5</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="12" name="p_read_3" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="570979584" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="28" opcode="read" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>p_read4</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="13" name="p_read33" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="774844782" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="28" opcode="read" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>p_read3</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="14" name="p_read22" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="774844782" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="28" opcode="read" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>p_read2</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="15" name="p_read11" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." coreId="774844782" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="28" opcode="read" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>p_read1</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="16" name="icmp_ln1652" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1652_fu_120_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.12" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="icmp_ln1652_1" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1652_1_fu_126_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.12" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="18" name="icmp_ln1652_2" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1652_2_fu_132_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.12" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="icmp_ln1652_3" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1652_3_fu_138_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.12" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="20" name="icmp_ln1652_4" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1652_4_fu_144_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.12" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="icmp_ln1652_5" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1652_5_fu_150_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.12" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="icmp_ln1652_6" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1652_6_fu_156_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.12" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="23" name="icmp_ln1652_7" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1652_7_fu_162_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.12" m_topoIndex="15" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="24" name="icmp_ln1652_8" lineNumber="1652" fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1652_8_fu_168_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="operator_le_28_19_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.12" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h" linenumber="1652" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="operator&amp;lt;=&amp;lt;28, 19, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="and_ln73" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_fu_174_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_delay="0.33" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="xor_ln75" lineNumber="75" fileName="firmware/BDT.h" fileDirectory=".." rtlName="xor_ln75_fu_180_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="18" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="75" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="and_ln73_8" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_8_fu_186_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_topoIndex="19" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="and_ln73_1" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_1_fu_192_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_topoIndex="20" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="xor_ln75_1" lineNumber="75" fileName="firmware/BDT.h" fileDirectory=".." rtlName="xor_ln75_1_fu_198_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="xor" m_display="0" m_delay="0.33" m_topoIndex="21" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="75" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="and_ln73_2" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_2_fu_204_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_topoIndex="22" m_clusterGroupNumber="2">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="xor_ln75_2" lineNumber="75" fileName="firmware/BDT.h" fileDirectory=".." rtlName="xor_ln75_2_fu_210_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="23" m_clusterGroupNumber="3">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="75" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="and_ln75" lineNumber="75" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln75_fu_216_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_delay="0.33" m_topoIndex="24" m_clusterGroupNumber="3">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="75" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="and_ln73_3" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_3_fu_222_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_delay="0.33" m_topoIndex="25" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="and_ln73_4" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_4_fu_228_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_topoIndex="26" m_clusterGroupNumber="4">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="xor_ln75_3" lineNumber="75" fileName="firmware/BDT.h" fileDirectory=".." rtlName="xor_ln75_3_fu_234_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="27" m_clusterGroupNumber="5">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="75" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="and_ln73_9" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_9_fu_240_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_topoIndex="28" m_clusterGroupNumber="5">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="and_ln73_5" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_5_fu_246_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_topoIndex="29" m_clusterGroupNumber="5">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="xor_ln75_4" lineNumber="75" fileName="firmware/BDT.h" fileDirectory=".." rtlName="xor_ln75_4_fu_252_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="30" m_clusterGroupNumber="6">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="75" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="and_ln75_1" lineNumber="75" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln75_1_fu_258_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_delay="0.33" m_topoIndex="31" m_clusterGroupNumber="6">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="75" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="and_ln73_6" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_6_fu_264_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_topoIndex="32" m_clusterGroupNumber="7">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="xor_ln75_5" lineNumber="75" fileName="firmware/BDT.h" fileDirectory=".." rtlName="xor_ln75_5_fu_270_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="33" m_clusterGroupNumber="8">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="75" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="and_ln73_10" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_10_fu_276_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_topoIndex="34" m_clusterGroupNumber="8">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="43" name="and_ln73_7" lineNumber="73" fileName="firmware/BDT.h" fileDirectory=".." rtlName="and_ln73_7_fu_282_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="and" m_display="0" m_topoIndex="35" m_clusterGroupNumber="8">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="73" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="or_ln88" lineNumber="88" fileName="firmware/BDT.h" fileDirectory=".." rtlName="or_ln88_fu_288_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="or" m_display="0" m_topoIndex="36" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="88" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="45" name="or_ln88_1" lineNumber="88" fileName="firmware/BDT.h" fileDirectory=".." rtlName="or_ln88_1_fu_294_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="or" m_display="0" m_delay="0.33" m_topoIndex="37" m_clusterGroupNumber="2">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="88" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="or_ln88_2" lineNumber="88" fileName="firmware/BDT.h" fileDirectory=".." rtlName="or_ln88_2_fu_300_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="or" m_display="0" m_delay="0.33" m_topoIndex="38" m_clusterGroupNumber="4">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="88" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="or_ln88_3" lineNumber="88" fileName="firmware/BDT.h" fileDirectory=".." rtlName="or_ln88_3_fu_306_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="or" m_display="0" m_topoIndex="39" m_clusterGroupNumber="5">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="88" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="or_ln88_4" lineNumber="88" fileName="firmware/BDT.h" fileDirectory=".." rtlName="or_ln88_4_fu_312_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="or" m_display="0" m_delay="0.33" m_topoIndex="40" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="88" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="or_ln88_5" lineNumber="88" fileName="firmware/BDT.h" fileDirectory=".." rtlName="or_ln88_5_fu_318_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="or" m_display="0" m_delay="0.33" m_topoIndex="41" m_clusterGroupNumber="7">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="88" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="or_ln88_6" lineNumber="88" fileName="firmware/BDT.h" fileDirectory=".." rtlName="or_ln88_6_fu_324_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="or" m_display="0" m_topoIndex="42" m_clusterGroupNumber="8">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="88" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="xor_ln89" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="xor_ln89_fu_330_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="decision_function" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="43" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="zext_ln89" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="zext_ln89_fu_336_p1" coreId="0" contextFuncName="decision_function" bitwidth="2" opcode="zext" m_display="0" m_topoIndex="44" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="select_ln89" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="select_ln89_fu_340_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="decision_function" bitwidth="2" opcode="select" m_display="0" m_topoIndex="45" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="select_ln89_1" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="select_ln89_1_fu_348_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="decision_function" bitwidth="2" opcode="select" m_display="0" m_delay="0.41" m_topoIndex="46" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="55" name="zext_ln89_1" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="zext_ln89_1_fu_356_p1" coreId="0" contextFuncName="decision_function" bitwidth="3" opcode="zext" m_display="0" m_topoIndex="47" m_clusterGroupNumber="9">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="56" name="select_ln89_2" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="select_ln89_2_fu_360_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="decision_function" bitwidth="3" opcode="select" m_display="0" m_topoIndex="48" m_clusterGroupNumber="9">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="57" name="select_ln89_3" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="select_ln89_3_fu_368_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="decision_function" bitwidth="3" opcode="select" m_display="0" m_delay="0.19" m_topoIndex="49" m_clusterGroupNumber="9">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="58" name="select_ln89_4" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="select_ln89_4_fu_376_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="decision_function" bitwidth="3" opcode="select" m_display="0" m_topoIndex="50" m_clusterGroupNumber="5">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="select_ln89_5" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="select_ln89_5_fu_384_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="decision_function" bitwidth="3" opcode="select" m_display="0" m_delay="0.33" m_topoIndex="51" m_clusterGroupNumber="5">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="60" name="zext_ln89_2" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="zext_ln89_2_fu_392_p1" coreId="0" contextFuncName="decision_function" bitwidth="4" opcode="zext" m_display="0" m_topoIndex="52" m_clusterGroupNumber="8">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="select_ln89_6" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="select_ln89_6_fu_396_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="decision_function" bitwidth="4" opcode="select" m_display="0" m_topoIndex="53" m_clusterGroupNumber="8">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="62" name="select_ln89_7" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="agg_result_fu_412_p11" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="decision_function" bitwidth="4" opcode="select" m_display="0" m_topoIndex="54" m_clusterGroupNumber="8">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>mux</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="63" name="agg_result" lineNumber="89" fileName="firmware/BDT.h" fileDirectory=".." rtlName="mux_104_28_1_1_U1" coreName="Multiplexer" implIndex="auto" control="no" opType="mux" coreId="76" contextFuncName="decision_function" bitwidth="28" opcode="mux" m_display="0" m_delay="0.87" m_topoIndex="55" m_clusterGroupNumber="8">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="89" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>ret</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="64" name="_ln93" lineNumber="93" fileName="firmware/BDT.h" fileDirectory=".." coreId="97" contextFuncName="decision_function" opcode="ret" m_display="0" m_topoIndex="56" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="firmware/BDT.h" linenumber="93" fileDirectory="/u1/hjia625/conifer/final_prj_unscaled" functionName="decision_function"/>
+        <dataInputObjs>mux</dataInputObjs>
+        <dataOutputObjs>ap_return</dataOutputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="firmware/BDT.h">
+        <validLinenumbers>73</validLinenumbers>
+        <validLinenumbers>75</validLinenumbers>
+        <validLinenumbers>88</validLinenumbers>
+        <validLinenumbers>89</validLinenumbers>
+        <validLinenumbers>93</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="/afs/slac.stanford.edu/g/reseng/vol37/xilinx/2022.2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h">
+        <validLinenumbers>1652</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <expressionNodes realName="select_ln89_fu_340">
+    <nodeIds>53</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln88_2_fu_300">
+    <nodeIds>46</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln88_3_fu_306">
+    <nodeIds>47</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_1_fu_192">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1652_3_fu_138">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_fu_174">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1652_6_fu_156">
+    <nodeIds>22</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_9_fu_240">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1652_2_fu_132">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln88_fu_288">
+    <nodeIds>44</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1652_7_fu_162">
+    <nodeIds>23</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_8_fu_186">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln75_1_fu_258">
+    <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_7_fu_282">
+    <nodeIds>43</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln75_fu_180">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1652_fu_120">
+    <nodeIds>16</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln89_6_fu_396">
+    <nodeIds>61</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln88_6_fu_324">
+    <nodeIds>50</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln89_fu_336">
+    <nodeIds>52</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln89_4_fu_376">
+    <nodeIds>58</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln88_5_fu_318">
+    <nodeIds>49</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln88_1_fu_294">
+    <nodeIds>45</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln88_4_fu_312">
+    <nodeIds>48</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_2_fu_204">
+    <nodeIds>30</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1652_1_fu_126">
+    <nodeIds>17</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_4_fu_228">
+    <nodeIds>34</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln75_2_fu_210">
+    <nodeIds>31</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln75_1_fu_198">
+    <nodeIds>29</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="agg_result_fu_412">
+    <nodeIds>63</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1652_4_fu_144">
+    <nodeIds>20</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_5_fu_246">
+    <nodeIds>37</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln89_1_fu_356">
+    <nodeIds>55</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_3_fu_222">
+    <nodeIds>33</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_6_fu_264">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1652_5_fu_150">
+    <nodeIds>21</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln1652_8_fu_168">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln89_fu_330">
+    <nodeIds>51</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln89_2_fu_392">
+    <nodeIds>60</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln75_5_fu_270">
+    <nodeIds>41</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln89_2_fu_360">
+    <nodeIds>56</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln89_7_fu_404">
+    <nodeIds>62</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln75_4_fu_252">
+    <nodeIds>38</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln73_10_fu_276">
+    <nodeIds>42</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln89_5_fu_384">
+    <nodeIds>59</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln89_1_fu_348">
+    <nodeIds>54</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln75_3_fu_234">
+    <nodeIds>35</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln89_3_fu_368">
+    <nodeIds>57</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln75_fu_216">
+    <nodeIds>32</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="p_read33_read_fu_102">
+    <nodeIds>13</nodeIds>
+  </ioNodes>
+  <ioNodes realName="p_read11_read_fu_114">
+    <nodeIds>15</nodeIds>
+  </ioNodes>
+  <ioNodes realName="p_read_1_read_fu_84">
+    <nodeIds>10</nodeIds>
+  </ioNodes>
+  <ioNodes realName="p_read_read_fu_78">
+    <nodeIds>9</nodeIds>
+  </ioNodes>
+  <ioNodes realName="p_read_3_read_fu_96">
+    <nodeIds>12</nodeIds>
+  </ioNodes>
+  <ioNodes realName="p_read22_read_fu_108">
+    <nodeIds>14</nodeIds>
+  </ioNodes>
+  <ioNodes realName="p_read_2_read_fu_90">
+    <nodeIds>11</nodeIds>
+  </ioNodes>
+  <ioPorts name="p_read1">
+    <contents name="read">
+      <nodeIds>15</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="p_read2">
+    <contents name="read">
+      <nodeIds>14</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="p_read3">
+    <contents name="read">
+      <nodeIds>13</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="p_read4">
+    <contents name="read">
+      <nodeIds>12</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="p_read5">
+    <contents name="read">
+      <nodeIds>11</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="p_read6">
+    <contents name="read">
+      <nodeIds>10</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="p_read7">
+    <contents name="read">
+      <nodeIds>9</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ap_return">
+    <contents name="ret">
+      <nodeIds>64</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+      <operations id="54" stage="1" latency="1"/>
+      <operations id="55" stage="1" latency="1"/>
+      <operations id="56" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+      <operations id="58" stage="1" latency="1"/>
+      <operations id="59" stage="1" latency="1"/>
+      <operations id="60" stage="1" latency="1"/>
+      <operations id="61" stage="1" latency="1"/>
+      <operations id="62" stage="1" latency="1"/>
+      <operations id="63" stage="1" latency="1"/>
+      <operations id="64" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="decision_function" mII="1" mDepth="1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>65</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>
