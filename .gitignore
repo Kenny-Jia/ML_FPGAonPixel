@@ -4,4 +4,6 @@
 *.hdf5
 /cp.ckpt/
 /.venv/
+/data_v2/
+test*.txt
 
