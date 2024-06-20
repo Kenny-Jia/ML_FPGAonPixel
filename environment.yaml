@@ -4,9 +4,11 @@ channels:
 dependencies:
   - python=3.8
   - keras
+  - qkeras
   - tensorflow 
   - ipython
   - matplotlib
+  - seaborn
   - pandas
   - numpy
   - scikit-learn
