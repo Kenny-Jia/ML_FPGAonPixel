@@ -3,9 +3,9 @@ channels:
   - defaults
 dependencies:
   - python=3.8
-  - keras
+  - keras==2.13.1
   - qkeras
-  - tensorflow 
+  - tensorflow==2.13.1 
   - ipython
   - matplotlib
   - seaborn
